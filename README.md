@@ -30,10 +30,10 @@ This project proposes adding **official templates**, **onboarding flows**, and *
 ## 💡 Why It Matters
 
 ### The Problem:
-- 🧱 **Notion** is overcomplicated (requires hours of tutorials).  
-- 📎 **Evernote** has limited free tiers and poor media handling.  
-- 📂 **Google Drive** is files-only, with basic folder organization.  
-- 🔄 Most tools require **juggling multiple apps** for different content types.
+- **Notion** is overcomplicated (requires hours of tutorials).  
+- **Evernote** has limited free tiers and poor media handling.  
+- **Google Drive** is files-only, with basic folder organization.  
+- Most tools require **juggling multiple apps** for different content types.
 
 ---
 
@@ -83,7 +83,7 @@ For journaling, idea storage, and inspiration boards.
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 ### 1. Personal Organization Mode  
 - New onboarding option when creating servers  
@@ -113,15 +113,15 @@ For journaling, idea storage, and inspiration boards.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 This is a **conceptual product proposal** that builds on Discord’s existing infrastructure:
 
-- 🧩 **Discord API** – Existing server, channel, and messaging capabilities  
-- 🤖 **Bot Framework** – Discord.js and Python bot libraries  
-- 🖥️ **UI/UX Enhancements** – React-based template system  
-- 📱 **Mobile SDK** – iOS/Android quick capture widgets  
-- 📣 **Marketing Platform** – New landing pages and educational content  
+- **Discord API** – Existing server, channel, and messaging capabilities  
+- **Bot Framework** – Discord.js and Python bot libraries  
+- **UI/UX Enhancements** – React-based template system  
+- **Mobile SDK** – iOS/Android quick capture widgets  
+- **Marketing Platform** – New landing pages and educational content  
 
 ---
 
@@ -133,7 +133,7 @@ What started as a *“test server”* evolved into a **comprehensive filing syst
 
 ---
 
-## 📊 Success Metrics
+## Success Metrics
 
 - Adoption rate of **Personal Organization Mode**  
 - **Solo server creation** and retention  
@@ -142,7 +142,7 @@ What started as a *“test server”* evolved into a **comprehensive filing syst
 
 ---
 
-## 🚀 Status
+## Status
 
 - **Stage:** Concept & Documentation  
 - **Type:** Product Enhancement Proposal  
