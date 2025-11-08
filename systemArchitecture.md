@@ -118,9 +118,9 @@ Each template is defined as a JSON schema including:
 ### 3. Bot Integration Marketplace
 **Architecture:**
 
--Bot Discovery API ↔ Bot Registry Database ↔ User Preferences
--↓
--Bot Installation Flow ↔ Discord OAuth ↔ Server Authorization
+Bot Discovery API ↔ Bot Registry Database ↔ User Preferences
+↓
+Bot Installation Flow ↔ Discord OAuth ↔ Server Authorization
 
 
 **Key Components:**
@@ -174,9 +174,9 @@ User Initiates Export → Data Collection → Format Conversion → CDN Upload �
 ## 🔄 Data Flow Architecture
 **Message Creation (Quick Capture):**
 
-- User Input → Widget/App → Discord API → WebSocket Gateway
-- → Message Service → Cassandra Storage → Elasticsearch Index
-- → Real-Time Sync
+ User Input → Widget/App → Discord API → WebSocket Gateway
+ → Message Service → Cassandra Storage → Elasticsearch Index
+ → Real-Time Sync
 
 
 **Bot Automation Workflow:**
@@ -185,3 +185,60 @@ Scheduled Trigger → Bot Server → Discord API
 
 
 **Template Application:**
+User Selects Template → Template API → Server Creation Service
+→ Create Channels → Set Permissions → Store Metadata
+→ Send Bot Invitations
+
+
+---
+
+## 🔐 Security & Privacy Considerations
+- **Authentication:** Uses existing Discord OAuth 2.0  
+- **Data Privacy:** All data stored in user’s private server; no new collection  
+- **Export:** User-initiated, respecting data ownership  
+- **Permissions:** Solo permission presets; bots have scoped permissions  
+
+---
+
+## 🧱 Implementation Phases
+
+| Phase | Duration | Key Deliverables |
+|--------|-----------|------------------|
+| **Phase 1 – Foundation** | Months 1–2 | Onboarding flow, core templates, beta testing |
+| **Phase 2 – Enhancement** | Months 3–4 | Bot marketplace, Quick Capture widgets, enhanced search |
+| **Phase 3 – Optimization** | Months 5–6 | Export/backup system, template refinements, marketing rollout |
+
+---
+
+## 🎓 Technical Decisions Rationale
+- **Minimal New Engineering:** Leverage Discord’s existing real-time systems.  
+- **Templates Over Builders:** Lower cognitive load and faster onboarding.  
+- **Bot Integration:** Enables faster feature delivery through existing ecosystem.  
+
+---
+
+## 🚀 Future Considerations
+- AI-powered organization suggestions  
+- Cross-server search  
+- Automation workflows  
+- External integrations (Notion, Google Drive)  
+
+### Technical Debt Prevention
+- Keep templates as configuration (not code)  
+- Maintain backward-compatible APIs  
+- Document bot integration standards  
+- Schedule periodic performance audits  
+
+---
+
+## 📚 References
+- [Discord API Documentation](https://discord.com/developers/docs/intro)  
+- [Discord.js Library](https://discord.js.org)  
+- [Cassandra Database Architecture](https://cassandra.apache.org/doc/latest/)  
+- [Elasticsearch Query Guide](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html)
+
+---
+
+**Document Version:** 1.0  
+**Last Updated:** November 2025  
+**Status:** Design Phase — Ready for Implementation Review
