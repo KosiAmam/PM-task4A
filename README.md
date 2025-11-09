@@ -113,6 +113,12 @@ For journaling, idea storage, and inspiration boards.
 
 ---
 
+## Onboarding Flow (Current vs To-Be)
+
+![Discord Onboarding Flow](./assets/image.png)
+
+---
+
 ## Technologies Used
 
 This is a **conceptual product proposal** that builds on Discord’s existing infrastructure:
