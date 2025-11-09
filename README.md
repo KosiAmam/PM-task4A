@@ -1,16 +1,16 @@
-# 💬 Discord for Personal Organization  
+# Discord for Personal Organization  
 ### *The Flexible, All-in-One Digital Hub Designed for How Your Brain Actually Works.*
 
 ---
 
-## 🌍 Overview
+## Overview
 
 **Discord** is already the go-to communication platform for gaming communities, classrooms, and teams.  
 Now, we’re transforming it into the **ultimate tool for personal organization and productivity** — turning your private server into a powerful, zero-friction system for notes, files, links, and ideas.
 
 ---
 
-## ⚙️ What It Does
+## What It Does
 
 It transforms your private server into a **single, cloud-based hub** — a digital filing system for your thoughts, files, media, projects, and tasks, all organized through private servers and intelligent bots.  
 
@@ -27,7 +27,7 @@ This project proposes adding **official templates**, **onboarding flows**, and *
 
 ---
 
-## 💡 Why It Matters
+## Why It Matters
 
 ### The Problem:
 - **Notion** is overcomplicated (requires hours of tutorials).  
@@ -52,10 +52,10 @@ This concept helps Discord **recognize and formalize** a use case that already e
 
 ## 🧠 Why Discord for Personal Organization Works
 
-### ✨ Low Friction, High Flexibility  
+### Low Friction, High Flexibility  
 If you can send a message, you can organize. No databases, no complex schemas — just instant capture.
 
-### 🎞️ True All-in-One Media  
+### True All-in-One Media  
 Effortlessly drop links, PDFs, images, code snippets, and long notes in the same place.  
 Stop switching apps just to save a file.
 
@@ -156,4 +156,4 @@ What started as a *“test server”* evolved into a **comprehensive filing syst
 
 ---
 
-### 🧱 Built with conviction from real user experience | Documentation
+### 🧱 Built with conviction from real user experience 
